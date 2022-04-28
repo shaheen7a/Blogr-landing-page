@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Shaheen121/Blogr-landing-page.git)
-- Live Site URL: [GitHub](#)
+- Live Site URL: [GitHub](https://shaheen121.github.io/Blogr-landing-page/)
 
 ### Built with
 
