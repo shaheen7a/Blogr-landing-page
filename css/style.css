@@ -158,7 +158,7 @@ a {
   font-weight: 600;
 }
 
-.content-wrapper {
+.content-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
