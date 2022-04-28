@@ -1,0 +1,37 @@
+//Variables
+
+// Colors
+
+// Primary
+
+$CTA-text: hsl(356, 100%, 66%);
+$CTA-hover: hsl(355, 100%, 74%);
+$headings: hsl(208, 49%, 24%);
+
+//Neutral
+
+$text-white: hsl(0, 0%, 100%);
+$footer-text: hsl(240, 3%, 79%);
+$text-blue: hsl(207, 13%, 34%);
+$bg-footer: hsl(240, 10%, 16%);
+
+// Gradient
+
+//Background gradient
+
+$gradient01: hsl(13, 100%, 72%);
+$gradient02: hsl(353, 100%, 62%);
+
+//Background gradient
+
+$gradient03: hsl(237, 17%, 21%);
+$gradient04: hsl(237, 23%, 32%);
+
+$bg-submenu: rgb(239, 239, 241);
+
+@import "general";
+@import "hero";
+@import "section";
+@import "footer";
+@import "menu";
+@import "media1440";

@@ -1,0 +1,162 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 1s ease-in-out;
+}
+
+.btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 86%;
+}
+
+.menu-block {
+  background-color: $text-white;
+  width: 86%;
+  border-radius: 5px;
+  margin-top: 4rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 20px 30px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2.5rem;
+
+  hr {
+    color: $bg-submenu;
+    width: 100%;
+    margin: 2.8rem 0 1rem 0;
+  }
+}
+
+.menu-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items-block {
+  width: 100%;
+}
+
+.menu-items {
+  width: 100%;
+
+  h4 {
+    color: $headings;
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
+    cursor: pointer;
+  }
+
+  &:hover {
+    h4 {
+      color: $footer-text;
+    }
+
+    .sub-menu {
+      display: flex;
+    }
+
+    .arrow {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-submenu;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1.4rem;
+
+  a {
+    display: block;
+    color: $text-blue;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+
+    &:hover {
+      color: $headings;
+    }
+  }
+
+  display: none;
+}
+
+.arrow {
+  margin-left: 1rem;
+  transition: all 0.5s ease-out;
+}
+
+.btn-menu-block {
+  font-size: 1.7rem;
+}
+
+.btn-login {
+  color: $headings;
+  margin-bottom: 1rem;
+
+  &:hover {
+    background-color: $bg-footer;
+
+    & div:not(:hover) {
+      color: $text-white;
+    }
+
+    div {
+      &:hover {
+        color: $text-white;
+      }
+    }
+  }
+}
+
+.btn-signup {
+  background-image: linear-gradient(135deg, $gradient01, $gradient02);
+  color: $text-white;
+
+  &:hover {
+    background-image: none;
+    border: 1px solid $CTA-hover;
+
+    & div:not(:hover) {
+      color: $CTA-hover;
+    }
+
+    div {
+      &:hover {
+        color: $CTA-hover;
+      }
+    }
+  }
+}
+
+.menu-hide {
+  left: 100vw;
+  opacity: 0;
+}
+
+.hamburger {
+  transition: all 1s ease-in-out
+}
+
+.hamburger-hide {
+  opacity: 0;
+}
